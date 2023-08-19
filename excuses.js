@@ -11,15 +11,7 @@ function generarExcusa() {
     const randomwhat = Math.floor(Math.random() * what.length);
     const randomwhen = Math.floor(Math.random() * when.length);
 
-
-
     return who[randomwho] + " " + action[randomaction] + " " + what[randomwhat] + " " + when[randomwhen];
-
-
 }
-const excusa = generarExcusa()
-console.log(excusa)
-
-
 
 document.getElementById("Excuses").innerHTML = generarExcusa();
